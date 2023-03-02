@@ -1,0 +1,30 @@
+.offer__container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #274c5b;
+  padding: 140px 30px;
+}
+.offer__description {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+@media (max-width: 640px) {
+  .offer__description {
+    flex-direction: column;
+  }
+}
+@media (max-width: 425px) {
+  .offer__description {
+    flex-direction: column;
+  }
+}
+@media (max-width: 320px) {
+  .offer__container {
+    padding: 30px 10px;
+  }
+}

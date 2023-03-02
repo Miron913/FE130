@@ -1,0 +1,184 @@
+@import url(../styles/navigation.css);
+@import url(../styles/introduce.css);
+@import url(../styles/cards.css);
+@import url(../styles/aboutUs.css);
+@import url(../styles/organic.css);
+@import url(../styles/testimonial.css);
+@import url(../styles/offerProducts.css);
+@import url(../styles/ecoFriendly.css);
+@import url(../styles/offerChapter.css);
+@import url(../styles/subscribe.css);
+@import url("https://fonts.googleapis.com/css2?family=Economica:wght@400;700&family=Open+Sans:wght@300&family=Work+Sans:wght@400;700&family=Yellowtail&display=swap");
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  max-width: 1440px;
+  width: 100%;
+  margin: auto;
+}
+@media (max-width: 1024px) {
+  body {
+    max-width: 1024px;
+  }
+}
+.tittle {
+  font-family: "Yellowtail", cursive;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  color: #7eb693;
+}
+.tittle--cards {
+  color: #ffffff;
+}
+.capitalText {
+  font-family: "roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  letter-spacing: 0.36px;
+  color: #274c5b;
+}
+.capitalText--size45 {
+  font-size: 45px;
+  text-align: center;
+}
+.capitalText--white {
+  color: #ffffff;
+}
+.capitalText--subscribe {
+  font-size: 50px;
+  color: white;
+}
+.subscribeText__tittle {
+  font-family: "roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 42px;
+  letter-spacing: 0.36px;
+  color: #274c5b;
+}
+.main__text {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  color: #274c5b;
+}
+.main__text--eco {
+  font-weight: 700;
+  font-size: 23px;
+}
+.nav__burger {
+  display: none;
+  margin-left: 15px;
+  position: relative;
+  width: 30px;
+  height: 20px;
+  border: 0;
+  border-top: 3px solid black;
+  border-bottom: 3px solid black;
+  background-color: white;
+}
+.nav__burger:before {
+  content: "";
+  position: absolute;
+  top: 6px;
+  left: 0px;
+  width: 100%;
+  border-top: 3px solid black;
+}
+.nav__burger label {
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+#nav__burger {
+  display: none;
+}
+.button {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #efd372;
+  height: 82px;
+  width: 219px;
+  border-radius: 15px;
+  cursor: pointer;
+}
+.button:hover {
+  background-color: #fdebad;
+}
+.button-text {
+  font-family: "roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  color: #274c5b;
+}
+.button-arrow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 38px;
+  width: 38px;
+  border-radius: 38px;
+  background-color: #335b6b;
+  color: white;
+}
+.button--aboutUs {
+  background-color: #274c5b;
+}
+.button__text--aboutUs {
+  color: white;
+}
+.button--aboutUs:hover {
+  background-color: #4b7d91;
+}
+.button--organic {
+  background-color: #274c5b;
+  width: 118px;
+  height: 37px;
+  color: #ffffff;
+}
+.button--organic:hover {
+  background-color: #4c707e;
+}
+.button--offerChapters {
+  background-color: #ffffff;
+}
+.googleMap {
+  width: 100%;
+}
+@media (max-width: 1024px) {
+  .nav__burger {
+    display: flex;
+  }
+  .navbar__links {
+    display: none;
+  }
+}
+#nav__burger:checked ~ div {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  background-color: white;
+  border-radius: 15px;
+  top: 100px;
+  left: 70px;
+  box-shadow: 0 0 10px #274c5b;
+  padding: 10px;
+}
+@media (max-width: 375px) {
+  .capitalText {
+    font-size: 40px;
+  }
+}

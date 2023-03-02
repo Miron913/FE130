@@ -1,0 +1,121 @@
+.eco__container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 0;
+}
+.eco__textContainer {
+  background-color: white;
+  border-radius: 35px;
+  padding: 40px 40px;
+  max-width: 720px;
+  height: 623px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  position: relative;
+  left: -60px;
+}
+@media (max-width: 1024px) {
+  .eco__textContainer {
+    position: absolute;
+    left: 300px;
+    width: 600px;
+  }
+}
+@media (max-width: 800px) {
+  .eco__textContainer {
+    left: 85px;
+    background-color: rgba(255, 255, 255, 0.8);
+  }
+  .eco__container {
+    height: 700px;
+    width: 800px;
+  }
+  .eco__image {
+    width: 800px;
+    height: 700px;
+    object-fit: cover;
+  }
+}
+@media (max-width: 768px) {
+  .eco__textContainer {
+    left: 85px;
+    background-color: rgba(255, 255, 255, 0.8);
+  }
+  .eco__container {
+    height: 700px;
+    width: 768px;
+  }
+  .eco__image {
+    width: 768px;
+    height: 700px;
+    object-fit: cover;
+  }
+}
+@media (max-width: 640px) {
+  .eco__textContainer {
+    left: 0;
+    width: 640px;
+    padding: 20px 20px;
+  }
+  .eco__container {
+    height: 700px;
+    width: 640px;
+  }
+  .eco__image {
+    width: 640px;
+    height: 700px;
+    object-fit: cover;
+  }
+}
+@media (max-width: 425px) {
+  .eco__textContainer {
+    left: 0;
+    width: 425px;
+    padding: 20px 20px;
+  }
+  .eco__container {
+    height: 700px;
+    width: 425px;
+  }
+  .eco__image {
+    width: 425px;
+    height: 700px;
+    object-fit: cover;
+  }
+}
+@media (max-width: 375px) {
+  .eco__container {
+    height: 700px;
+    width: 375px;
+    margin: 20px 0;
+  }
+  .eco__image {
+    width: 375px;
+    height: 700px;
+    object-fit: cover;
+  }
+  .eco__textContainer {
+    left: 0;
+    width: 375px;
+    padding: 20px 20px;
+  }
+}
+@media (max-width: 320px) {
+  .eco__container {
+    height: 650px;
+    width: 320px;
+  }
+  .eco__image {
+    width: 320px;
+    height: 650px;
+    object-fit: cover;
+  }
+  .eco__textContainer {
+    left: 0;
+    width: 320px;
+    padding: 20px 10px;
+  }
+}
